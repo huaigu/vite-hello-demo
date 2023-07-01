@@ -6,6 +6,7 @@ defineProps({
 })
 
 const count = ref(0)
+console.log(import.meta.env.VITE_DEMO);
 </script>
 
 <template>
